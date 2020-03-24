@@ -10,6 +10,8 @@ Welcome to the Sensorgnome documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   raspberry_pi_sensorgnome
+
 
 
 Indices and tables
