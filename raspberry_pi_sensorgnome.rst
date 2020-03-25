@@ -128,11 +128,7 @@ Step 5: Install Software on Raspberry Pi
 Step 6: Connect to Your Raspberry Pi (Wi-Fi)
 --------------------------------------------
 
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/d0x9dIOvAr4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+.. youtube:: d0x9dIOvAr4
 
 Once the *Raspberry Pi* has booted up, click double-press the *Pushbutton* switch to activate the **Wi-Fi**.
 
