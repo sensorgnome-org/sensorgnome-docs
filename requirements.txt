@@ -1,1 +1,1 @@
--e git@github.com:sphinx-contrib/youtube.git
+-e git://github.com/sphinx-contrib/youtube.git#egg=sphinxcontrib.youtube
