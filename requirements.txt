@@ -1,1 +1,1 @@
--e https://github.com/sphinx-contrib/youtube/archive/master.zip
+-e git@github.com:sphinx-contrib/youtube.git
