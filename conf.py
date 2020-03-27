@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Sensorgnome'
-copyright = '2020, Dale Floer'
-author = 'Dale Floer'
+copyright = '2020, Sensorgnome Working Group'
+author = 'Sensorgnome Working Group'
 
 
 # -- General configuration ---------------------------------------------------
