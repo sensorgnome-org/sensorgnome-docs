@@ -8,7 +8,7 @@ CTT Dongle - How to Update your Sensorgnome Software (Raspberry Pi)
 Introduction
 ============
 
-Cellular Tracking Technologies (CTT) has developed tags which operate on a different frequency (433 MHz) from Lotek's tags (~166.380 MHz). For this reason, it is necessary to 
+Cellular Tracking Technologies (CTT) has developed tags which operate on a different frequency (434 MHz) from Lotek's tags (~166.380 MHz). CTT has creaeted their own radio dongles which are effective and cheaper than FUNcube dongles (FCD), but they require a software patch for them to work on a Sensorgnome. The instructions below show you how to install this patch. 
 
 
 Supplies
@@ -16,11 +16,10 @@ Supplies
  * Assembled Raspberry Pi Model B v1.2 with SD card, button, and power adapter
  * CTT Motus Adapter
  
-
 Steps for updating file to Sensorgnome
 ---------------------------------------
 
-#. Download the CTT updaet from here: https://s3.amazonaws.com/media.celltracktech.com/sensorgnome/raspberry/2019-11-12-rpi_ctt_dongle.tar.bz2
+#. Download the CTT update from here: https://s3.amazonaws.com/media.celltracktech.com/sensorgnome/raspberry/2019-11-12-rpi_ctt_dongle.tar.bz2
 #. Rename the file to “sensorgnome_update.tar.bz2”.
 #. Connect to the Sensorgnome using Wi-Fi or Ethernet cable. Instructions can be found here: 
 #. Open FileZilla and connect to the file system using the following credentials:
