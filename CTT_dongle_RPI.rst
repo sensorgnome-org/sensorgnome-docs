@@ -8,7 +8,7 @@ CTT Dongle - How to Update your Sensorgnome Software (Raspberry Pi)
 Introduction
 ============
 
-Cellular Tracking Technologies (CTT) has developed tags which operate on a different frequency (434 MHz) from Lotek's tags (~166.380 MHz). CTT has creaeted their own radio dongles which are effective and cheaper than FUNcube dongles (FCD), but they require a software patch for them to work on a Sensorgnome. The instructions below show you how to install this patch. 
+Cellular Tracking Technologies (CTT) has developed tags which operate on a different frequency (434 MHz) from Lotek's tags (~166.380 MHz). CTT has creaeted their own radio dongles which are effective and cheaper than FUNcube dongles (FCD), but they require a software patch for them to work on a Sensorgnome. Below are instructions on how to install this patch. 
 
 
 Supplies
