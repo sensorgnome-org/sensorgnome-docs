@@ -42,6 +42,8 @@ Tools
  * Solder wick and/or solder sucker to clean up any mistakes
  * Hot glue gun + hot glue
 
+.. _sg_build_step1:
+
 Step 1: Solder 40-pin Header to GPS HAT
 ---------------------------------------
 
@@ -51,6 +53,8 @@ Step 1: Solder 40-pin Header to GPS HAT
 GPS HAT purchased from Adafruit typically comes with a 40-pin header that must be soldered to the board.
 
 Instructions on soldering will not be described here.
+
+.. _sg_build_step2:
 
 Step 2: Soldering Pushbutton to GPS HAT
 ---------------------------------------
@@ -87,6 +91,8 @@ Instructions on how to solder will not be outlined here.
 | NO1          | Normally Open   | GPIO#18 |
 +--------------+-----------------+---------+
 
+.. _sg_build_step3:
+
 Step 3: Assembling GPS HAT
 --------------------------
 
@@ -99,6 +105,8 @@ Use a hot glue gun to help fix the uFL connector to the board.
 
 Insert the CR1220 battery into the battery slot, positive (flat) side up.
 
+.. _sg_build_step4:
+
 Step 4: Assembling Raspberry Pi
 -------------------------------
 
@@ -109,6 +117,8 @@ Plug the GPS HAT on to the Raspberry Pi board using the 40-pin
 header.
 
 Install the Raspberry Pi + GPS HAT in the Raspberry Pi Case.
+
+.. _sg_build_step5:
 
 Step 5: Install Software on Raspberry Pi
 ----------------------------------------
@@ -124,6 +134,8 @@ Step 5: Install Software on Raspberry Pi
 #. You should see the LED on the *Raspberry Pi*.
 #. Allow 1-2 minutes for the *Raspberry Pi* to boot up.
 #. Once it has booted the *Pushbutton* should begin blinking if you press it once. Press it once again to make it stop blinking.
+
+.. _sg_build_step6:
 
 Step 6: Connect to Your Raspberry Pi (Wi-Fi)
 --------------------------------------------
@@ -142,6 +154,8 @@ Once connected, open your web browser and navigate to the following address: 192
 
 You should see a web page that says *'I am your SensorGnome'* with a bunch of live information about the device. A full description of the webpage will be described later. For now, the fact this page is loading will inform you that the Sensorgnome software has correctly been installed and that you have successfully connected to it.
 
+.. _sg_build_step7:
+
 Step 7: Connect to Your Raspberry Pi (Ethernet)
 -----------------------------------------------
 
@@ -155,6 +169,8 @@ Once connected, open your web browser and navigate to the following address: **s
 You should see a web page that says **'I am your SensorGnome'** with a bunch of live information about the device.
 
 If you are having trouble connecting, try the previous step with Wi-Fi.
+
+.. _sg_build_step8:
 
 Step 8: Access Your SensorGnome's Internal Folders
 --------------------------------------------------
@@ -184,16 +200,20 @@ The following steps outline how to access the internal folders of your SensorGno
 #. To copy files from the SensorGnome to your laptop, simply select all the folders you wish to download, right click and select 'download'. They will be automatically copied to the folder you have open in frame 1.
 #. See the following steps to make changes to the SensorGnome.
 
+.. _sg_build_step9:
+
 Step 9: Set Wi-Fi Network Properties
 ------------------------------------
 
 You can use the SensorGnome's on-board Wi-Fi to make the device connect to our web servers and automatically download data so you don't have to do it manually. In addition, you can use the interface available on sensorgnome.org to view the SensorGnome's live web interface and diagnose any issues it may have. At this time, this feature is only compatible with Wi-Fi networks that are WPA2 password protected; networks without a password will not work! Alternatively, you can use a hard-wired connection by plugging an Ethernet cable into your SensorGnome and router. To use Wi-Fi, follow these steps:
 
-#. From the root folder, navigate to the following folder: “boot” / “uboot”.
+#. From the root folder, navigate to the following folder: ``boot/uboot``.
 #. In here you can find a file called 'network.txt'. Right click on it and select 'view/edit'.
 #. This file contains all the instructions required to set the Wi-Fi. Once completed, save and close the file.
 #. To make the changes come into effect, you will need to reboot your SensorGnome.
 #. Once rebooted, review that your SensorGnome has been connected successfully by searching for its serial number in the list of receivers found on http://sensorgnome.org/status.
+
+.. _sg_build_step10:
 
 Step 10: Add or Change On-board Tag Database
 --------------------------------------------
