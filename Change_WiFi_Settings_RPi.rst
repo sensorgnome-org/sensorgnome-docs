@@ -3,7 +3,9 @@ How to Change the Wi-Fi Settings on Raspberry Pi
 ************************************************
 
 .. image:: images/finished_sg.jpg
-  :alt: A finished Sensorgnome, ready to be deployed.
+	:alt: A finished Sensorgnome, ready to be deployed.
+	:height: 300px
+	:align: center
 
 .. _introduction:
 
@@ -69,6 +71,8 @@ Change Wi-Fi Settings - OPTION 1: **Laptop**
 --------------------------------------------------
 
 .. image:: images/FileZilla_01.png
+	:height: 300px
+	:align: center
 
 #. Download FileZilla from their website:
 #. Install the program with its default settings
@@ -77,6 +81,8 @@ Change Wi-Fi Settings - OPTION 1: **Laptop**
 #. In the 'Host' field, enter the address "sftp://192.168.7.2" if you are connected via Wi-Fi. If you are connected by an Ethernet cable, enter the address "sftp://sgpi.local".
 
 ..images:: images/network-txt_screencap_raw.png
+	:height: 300px
+	:align: center
 
 #. For the username enter "root" and for the password enter "root" as well. The port field should be left blank.
 
@@ -111,17 +117,25 @@ Change Wi-Fi Settings - OPTION 2: **Android Smartphone**
 2. Open the program and open the top-left menu.
 
 .. image:: images/Wi-Fi_android_step-01.jpg
+	:height: 300px
+	:align: center
 
 3. Select **Network** and then **FTP**.
 
 .. image:: images/Wi-Fi_android_step-02.jpg
+	:height: 300px
+	:align: center
 .. image:: images/Wi-Fi_android_step-03.jpg
+	:height: 300px
+	:align: center
 
 4. Open the folder '**192.168.7.2**' 
 
  * If prompted for a username and password, enter '**root**' for both.
 
 .. image:: images/Wi-Fi_android_step-04.jpg
+	:height: 300px
+	:align: center
 
 5. Scroll down until you see the '**boot**' folder and open it.
 
@@ -130,20 +144,32 @@ Change Wi-Fi Settings - OPTION 2: **Android Smartphone**
 6. Open the '**uboot**' folder and then open the file named '**network.txt**'.
 
 .. image:: images/Wi-Fi_android_step-07.jpg
+	:height: 300px
+	:align: center
 .. image:: images/Wi-Fi_android_step-08.jpg
+	:height: 300px
+	:align: center
 
 7. Open the menu on the **top-right** corner and select **Edit**.
 
 .. image:: images/Wi-Fi_android_step-09.jpg
+	:height: 300px
+	:align: center
 .. image:: images/Wi-Fi_android_step-10.jpg
+	:height: 300px
+	:align: center
 
 8. Read the instructions and edit the three lines of text as indicated.
 
 .. image:: images/Wi-Fi_android_step-11.jpg
+	:height: 300px
+	:align: center
 
 9. When all the correct information has beeen entered, press the back arrow on the top-left corner and confirm your edits.
 
 .. image:: images/Wi-Fi_android_step-12.jpg
+	:height: 300px
+	:align: center
 
 10. To make the changes come into effect, you will need to reboot your SensorGnome.
 
