@@ -80,7 +80,7 @@ Change Wi-Fi Settings - OPTION 1: **Laptop**
 
 #. In the 'Host' field, enter the address "sftp://192.168.7.2" if you are connected via Wi-Fi. If you are connected by an Ethernet cable, enter the address "sftp://sgpi.local".
 
-.. image:: images/network-txt_screencap_raw.png
+.. image:: images/network-txt_screencap_raw.PNG
   :height: 300px
   :align: center
 
