@@ -45,7 +45,7 @@ If you are having trouble connecting, try the previous step with Wi-Fi.
 
 Change Wi-Fi Settings - OPTION 1: **Laptop**
 --------------------------------------------------
-..::image images/FileZilla_01.png
+.. image:: images/FileZilla_01.png
 
 #. Download FileZilla from their website:
 #. Install the program with its default settings
@@ -70,32 +70,32 @@ Change Wi-Fi Settings - OPTION 2: **Android Smartphone**
 #. Download and install **ES File Explorer** from the Google Play Store:
 
 #. Open the program and open the top-left menu.
-..::image images/Wi-Fi_android_step-01.jpg
+.. image:: images/Wi-Fi_android_step-01.jpg
 
 #. Select **Network** and then **FTP**.
-..::image images/Wi-Fi_android_step-02.jpg
-..::image images/Wi-Fi_android_step-03.jpg
+.. image:: images/Wi-Fi_android_step-02.jpg
+.. image:: images/Wi-Fi_android_step-03.jpg
 
 #. Open the folder '**192.168.7.2**'
 		* If prompted for a username and password, enter '**root**' for both.
-..::image images/Wi-Fi_android_step-04.jpg
+.. image:: images/Wi-Fi_android_step-04.jpg
 
 #. Scroll down until you see the '**boot**' folder and open it.
-..::image images/Wi-Fi_android_step-06.jpg
+.. image:: images/Wi-Fi_android_step-06.jpg
 
 #. Open the '**uboot**' folder and then open the file named '**network.txt**'.
-..::image images/Wi-Fi_android_step-07.jpg
-..::image images/Wi-Fi_android_step-08.jpg
+.. image:: images/Wi-Fi_android_step-07.jpg
+.. image:: images/Wi-Fi_android_step-08.jpg
 
 #. Open the menu on the **top-right** corner and select **Edit**.
-..::image images/Wi-Fi_android_step-09.jpg
-..::image images/Wi-Fi_android_step-10.jpg
+.. image:: images/Wi-Fi_android_step-09.jpg
+.. image:: images/Wi-Fi_android_step-10.jpg
 
 #. Read the instructions and edit the three lines of text as indicated.
-..::image images/Wi-Fi_android_step-11.jpg
+.. image:: images/Wi-Fi_android_step-11.jpg
 
 #. When all the correct information has beeen entered, press the back arrow on the top-left corner and confirm your edits.
-..::image images/Wi-Fi_android_step-12.jpg
+.. image:: images/Wi-Fi_android_step-12.jpg
 
 #. To make the changes come into effect, you will need to reboot your SensorGnome.
 
