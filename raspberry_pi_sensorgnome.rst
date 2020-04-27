@@ -142,7 +142,7 @@ Step 6: Connect to Your Raspberry Pi (Wi-Fi)
 
 .. youtube:: d0x9dIOvAr4
 
-Once the *Raspberry Pi* has booted up, click double-press the *Pushbutton* switch to activate the **Wi-Fi**.
+Once the *Raspberry Pi* has booted up, double-press the *Pushbutton* switch to activate the **Wi-Fi**.
 
 Once active, the *Pushbutton* should blink slowly at a rate of 0.5 seconds on and 0.5 seconds off.
 
@@ -175,7 +175,7 @@ If you are having trouble connecting, try the previous step with Wi-Fi.
 Step 8: Access Your SensorGnome's Internal Folders
 --------------------------------------------------
 
-While connected to your Raspberry Pi via Wi-Fi or Ethernet. These include:
+While connected to your Raspberry Pi via Wi-Fi or Ethernet, you can:
 
  * Download receiver data.
  * Set Wi-Fi network properties (for automated data download and remote diagnostics)
