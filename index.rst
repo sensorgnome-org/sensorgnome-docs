@@ -11,6 +11,7 @@ Welcome to the Sensorgnome documentation!
    :caption: Contents:
 
    raspberry_pi_sensorgnome
+   CTT_dongle_RPI.rst
 
 
 
