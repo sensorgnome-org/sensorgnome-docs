@@ -22,7 +22,7 @@ See `Sensorgnome.org <https://sensorgnome.org/>`_ for more information.
 * `Connecting - OPTION 1: Wi-Fi <#connecting-wifi>`_
 * `Connecting - OPTION 2: Ethernet Cable <#connecting-ethernet>`_
 * `Change Wi-Fi Settings - OPTION 1: Laptop <#change-wifi-laptop>`_
-* `Change Wi-Fi Settings - OPTION 2: Android Smart Phone<#change-wifi-android>`_
+* `Change Wi-Fi Settings - OPTION 2: Android Smartphone <#change-wifi-android>`_
 
 
 `- Back to Top - <#>`_
@@ -70,9 +70,6 @@ cable into the *Raspberry Pi's* **Ethernet** port and your **laptop**.
 Change Wi-Fi Settings - OPTION 1: **Laptop**
 --------------------------------------------------
 
-.. image:: images/FileZilla_01.png
-  :height: 300px
-  :align: center
 
 #. Download FileZilla from their website:
 #. Install the program with its default settings
@@ -80,10 +77,10 @@ Change Wi-Fi Settings - OPTION 1: **Laptop**
 
 #. In the 'Host' field, enter the address "sftp://192.168.7.2" if you are connected via Wi-Fi. If you are connected by an Ethernet cable, enter the address "sftp://sgpi.local".
 
-.. image:: images/network-txt_screencap_raw.PNG
+.. image:: images/FileZilla_01.png
   :height: 300px
   :align: center
-
+  
 #. For the username enter "root" and for the password enter "root" as well. The port field should be left blank.
 
 #. Click the 'Quickconnect' button and you should see the following progress text in the Status frame.
@@ -97,6 +94,10 @@ Change Wi-Fi Settings - OPTION 1: **Laptop**
 #. From this location, navigate to the following folder: “boot” / “uboot”.
 
 #. In here you can find a file called 'network.txt'. Right click on it and select 'view/edit'.
+
+.. image:: images/network-txt_screencap_raw.PNG
+  :height: 300px
+  :align: center
 
 #. This file contains all the instructions required to enter the Wi-Fi settings. Once completed, save and close the file.
 
@@ -122,10 +123,12 @@ Change Wi-Fi Settings - OPTION 2: **Android Smartphone**
 
 3. Select **Network** and then **FTP**.
 
-.. image:: images/Wi-Fi_android_step-02.jpg
+|pic31|  |pic32|
+
+.. |pic31| image:: images/Wi-Fi_android_step-02.jpg
   :height: 300px
   :align: center
-.. image:: images/Wi-Fi_android_step-03.jpg
+.. |pic32| image:: images/Wi-Fi_android_step-03.jpg
   :height: 300px
   :align: center
 
@@ -140,22 +143,28 @@ Change Wi-Fi Settings - OPTION 2: **Android Smartphone**
 5. Scroll down until you see the '**boot**' folder and open it.
 
 .. image:: images/Wi-Fi_android_step-06.jpg
+  :height: 300px
+  :align: center
 
 6. Open the '**uboot**' folder and then open the file named '**network.txt**'.
 
-.. image:: images/Wi-Fi_android_step-07.jpg
+|pic61|  |pic62|
+
+.. |pic61| image:: images/Wi-Fi_android_step-07.jpg
   :height: 300px
   :align: center
-.. image:: images/Wi-Fi_android_step-08.jpg
+.. |pic62| image:: images/Wi-Fi_android_step-08.jpg
   :height: 300px
   :align: center
 
 7. Open the menu on the **top-right** corner and select **Edit**.
 
-.. image:: images/Wi-Fi_android_step-09.jpg
+|pic71|  |pic72|
+
+.. |pic71| image:: images/Wi-Fi_android_step-09.jpg
   :height: 300px
   :align: center
-.. image:: images/Wi-Fi_android_step-10.jpg
+.. |pic72| image:: images/Wi-Fi_android_step-10.jpg
   :height: 300px
   :align: center
 
