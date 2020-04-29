@@ -13,6 +13,14 @@ https://sensorgnome.readthedocs.io/
 
 To build the documentation locally to test: run `make html` and then open the result from `_build/html`.
 
+To clean the built documentation, which should be done after changes are made to preview the output, run `make clean`.
+
+To test document building, run `sphinx-build -nT -b dummy . _build/html`, which will show all errors and warnings.
+
+## Continuous Integration
+
+The project has been set up to use Travis CI to test the project is formatted and builds correctly. It does not do grammar or spell checking.
+
 ## Contributing
 
 If you'd like to contribute to the docs, please fork this repo, make your changes and open a pull request so that we can review and then get your changes into the project.
