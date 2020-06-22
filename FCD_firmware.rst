@@ -19,13 +19,13 @@ Here I will explain how to correct this problem by reimaging the FUNcube dongle.
 
 
 This guide is a simplified form of `the guide provided on the FUNcubed dongle website <http://www.funcubedongle.com/MyImages/FCDFirmwareUpdateGuide.pdf>`.
-it
 
 ======================
 
 Supplies
 --------
- * FUNcube Dongle Pro Plus
+ * FUNcube Dongle Pro Plus.
+ * Laptop or desktop computer.
 
 Downloads
 --------
