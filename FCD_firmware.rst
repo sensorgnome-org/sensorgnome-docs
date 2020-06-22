@@ -1,5 +1,5 @@
 *********************************************
-How to Build a Raspberry Pi Based Sensorgnome
+How to update the FUNcube Dongle Firmware
 *********************************************
 
 .. image:: images/finished_sg.jpg
@@ -19,7 +19,7 @@ Here I will explain how to correct this problem by reimaging the FUNcube dongle.
 
 
 This guide is a simplified form of `the guide provided on the FUNcubed dongle website <http://www.funcubedongle.com/MyImages/FCDFirmwareUpdateGuide.pdf>`.
-
+it
 
 ======================
 
