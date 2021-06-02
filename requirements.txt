@@ -22,4 +22,4 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 -e git://github.com/sphinx-contrib/youtube.git@635c8a908e3cac552ce43293c1516e7270cc4ce8#egg=sphinxcontrib_youtube
-urllib3==1.25.8
+urllib3==1.26.5
